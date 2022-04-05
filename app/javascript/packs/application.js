@@ -5,9 +5,9 @@ import "channels";
 Rails.start();
 Turbolinks.start();
 
-var i = 0;
-var txt = "It's me, Ricardo!_"; /* The text */
-var speed = 200; /* The speed/duration of the effect in milliseconds */
+let i = 0;
+let txt = "It's me, Ricardo!_"; /* The text */
+let speed = 200; /* The speed/duration of the effect in milliseconds */
 
 function typeWriter() {
   if (i < txt.length) {
