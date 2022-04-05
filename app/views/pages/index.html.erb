@@ -3,11 +3,11 @@
     <div class="container-principal">
 
       <div class="container-head">
-        <%= link_to "https://api.whatsapp.com/send?phone=5511947959196&text=Hi%20There!" do %>
+        <%= link_to "https://api.whatsapp.com/send?phone=5511947959196&text=Hi Ricardo! I'd love to hire you! :)" do %>
          <%= image_tag "PHOTO_PROFILE_COLORS_edit.jpg", alt: 'a photo of Ricardo', class:"profile-photo"%>
         <% end %>
 
-        <%= link_to "https://api.whatsapp.com/send?phone=5511947959196&text=Hi%20There!" do %>
+        <%= link_to "https://api.whatsapp.com/send?phone=5511947959196&text=Hi Ricardo! I'd love to hire you! :)" do %>
          <%= image_tag "icons8-whatsapp-500.png", alt: "whatsapp icon", class:"whatsapp-icon"%>
         <% end %>
         <h1 class="its-me" id="type"></h1>
@@ -72,11 +72,11 @@
         <p class="image-text">Available to work remote_</p>
       </div>
 
+
       <div class="container-image">
         <%= image_tag "phone-solid.svg", alt: "telephone icon", class:"image-pic"%>
         <%= link_to "+55 11 94795-9196_", "tel:+5511947959196", class:"image-text"%>
       </div>
-
 
       <div class="container-image">
         <%= image_tag "envelope-solid.svg", alt: "email icon", class:"image-pic"%>
@@ -84,18 +84,26 @@
       </div>
 
       <div class="container-image">
+        <%= image_tag "icons8-baixar-96.png", alt: "cv download icon", class:"image-pic"%>
+        <%= link_to "Download my Curriculum Vitae_",  asset_path("full_cv_letters_ricardo_pace_2022_EN.pdf"), download: "full_cv_letters_ricardo_pace_2022_EN.pdf", class:"image-text"%>
+      </div>
+
+      <div class="container-image">
         <%= image_tag "linkedin-brands.svg", alt: "linkedin icon", class:"image-pic"%>
-        <%= link_to "Find Me On LinkedIn_", "http://www.linkedin.com/in/ricardofortepace", class:"image-text"%>
+        <%= link_to "Find me on LinkedIn_", "http://www.linkedin.com/in/ricardofortepace", class:"image-text"%>
       </div>
 
       <div class="container-image">
         <%= image_tag "github-brands.svg", alt: "github icon", class:"image-pic"%>
-        <%= link_to "Find Me On GitHub_", "http://www.github.com/ricardofortepace", class:"image-text"%>
+        <%= link_to "Find me on GitHub_", "http://www.github.com/ricardofortepace", class:"image-text"%>
       </div>
 
       <div class="container-image">
         <%= image_tag "instagram-square-brands.svg", alt: "instagram icon", class:"image-pic"%>
-        <%= link_to "Find Me On Instagram_", "https://www.instagram.com/ricardofortepace/", class:"image-text"%>
+        <%= link_to "Find me on Instagram_", "https://www.instagram.com/ricardofortepace/", class:"image-text"%>
       </div>
+
+
+
 
     </div>
