@@ -5,15 +5,11 @@
       <div class="container-head">
 
 
-
-
-
-
-        <%= link_to href:"https://api.whatsapp.com/send?phone=5511947959196&text=Hi%20There!" do %>
+        <%= link_to "https://api.whatsapp.com/send?phone=5511947959196&text=Hi%20There!" do %>
          <%= image_tag "PHOTO_PROFILE_COLORS_edit.jpg", alt: 'a photo of Ricardo', class:"profile-photo"%>
         <% end %>
 
-        <%= link_to href:"https://api.whatsapp.com/send?phone=5511947959196&text=Hi%20There!" do %>
+        <%= link_to "https://api.whatsapp.com/send?phone=5511947959196&text=Hi%20There!" do %>
          <%= image_tag "icons8-whatsapp-messenger-is-a-freeware,-cross-platform-messaging-and-voice-over-ip-service-96.png", alt: "whatsapp icon", class:"whatsapp-icon"%>
         <% end %>
         <h1 class="its-me">It's me, Ricardo!_</h1>
@@ -73,43 +69,44 @@
       </div>
 
       <div class="container-image">
-           <%=image_tag "square-check-solid-2.png", class:"image-pic", alt:"image box"%>
+           <%=image_tag "square-check-solid-2.png", class:"image-pic", alt:"check box"%>
           <p class="image-text">Available to travel_</p>
       </div>
 
       <div class="container-image">
-        <%=image_tag "square-check-solid-2.png", class:"image-pic", alt:"image box"%>
+        <%=image_tag "square-check-solid-2.png", class:"image-pic", alt:"check box"%>
         <p class="image-text">Available to work in situ_</p>
       </div>
 
       <div class="container-image">
-        <%=image_tag "square-check-solid-2.png", class:"image-pic", alt:"image box"%>
+        <%=image_tag "square-check-solid-2.png", class:"image-pic", alt:"check box"%>
         <p class="image-text">Available to work remote_</p>
       </div>
 
       <div class="container-image">
-        <%= image_tag "phone-solid.svg", alt: "whatsapp icon", class:"image-pic"%>
+        <%= image_tag "phone-solid.svg", alt: "telephone icon", class:"image-pic"%>
         <%= link_to "+55 11 94795-9196_", "tel:+5511947959196,1", class:"image-text"%>
       </div>
 
 
       <div class="container-image">
-        <a class="image-text" href="mailto: tatopace@hotmail.com"><img class="image-pic" src="images/envelope-solid.svg" alt="image box"></a>
-        <a class="image-text" href="mailto: tatopace@hotmail.com"><p class="image-text">tatopace@hotmail.com</p></a>
+        <%= image_tag "envelope-solid.svg", alt: "email icon", class:"image-pic"%>
+        <%= link_to "tatopace@hotmail.com", "mailto: tatopace@hotmail.com", class:"image-text"%>
       </div>
 
       <div class="container-image">
-        <a class="image-text" href="http://www.linkedin.com/in/ricardofortepace"><img class="image-pic" src="images/linkedin-brands.svg" alt="image box"></a>
-        <a class="image-text" href="http://www.linkedin.com/in/ricardofortepace"><p class="image-text">Find Me On LinkedIn_</p></a>
+        <%= image_tag "linkedin-brands.svg", alt: "linkedin icon", class:"image-pic"%>
+        <%= link_to "Find Me On LinkedIn_", "http://www.linkedin.com/in/ricardofortepace", class:"image-text"%>
       </div>
 
       <div class="container-image">
-        <a class="image-text" href="http://www.github.com/ricardofortepace"><img class="image-pic" src="images/github-brands.svg" alt="image box"></a>
-        <a class="image-text" href="http://www.github.com/ricardofortepace"><p class="image-text">Find Me On GitHub_</p></a>
+        <%= image_tag "github-brands.svg", alt: "github icon", class:"image-pic"%>
+        <%= link_to "Find Me On GitHub_", "http://www.github.com/ricardofortepace", class:"image-text"%>
       </div>
 
       <div class="container-image">
-        <a class="image-text" href="https://www.instagram.com/ricardofortepace/"><img class="image-pic" src="images/instagram-square-brands.svg" alt="image box"></a>
-        <a class="image-text" href="https://www.instagram.com/ricardofortepace/"><p class="image-text">Find Me On Instagram_</p></a>
+        <%= image_tag "instagram-square-brands.svg", alt: "instagram icon", class:"image-pic"%>
+        <%= link_to "Find Me On INstagram_", "https://www.instagram.com/ricardofortepace/", class:"image-text"%>
       </div>
+
     </div>
