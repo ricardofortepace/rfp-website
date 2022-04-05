@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body{
+  background-color: rgb(240,240,240);
+}
+
+.container-principal{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 7.5vw;
+  background-color: #fff;
+  width: 95vw;
+  margin: 2.5vw auto;
+  box-shadow: 3px 3px 3px rgba(50,50,50,0.25);
+  padding-bottom: 5vw;
+  border-left: 0.25px solid rgb(255,0,255);
+  border-right: 0.25px solid rgb(255,0,255);
+  border-top: 0.25px solid rgb(255,0,255);
+  border-bottom: 0.25px solid rgb(255,0,255);
+  z-index: -5;
+}
+
+.container-head{
+  width: 100%;
+  height: 75vw;
+  /* background-color: red; */
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.profile-photo{
+  width: 50vw;
+  border-radius: 25vw;
+  outline: 3vw solid rgb(0,255,255);
+  outline-offset: 2vw;
+  margin: 0 auto;
+  margin-top: 20vw;
+  margin-bottom: 5vw;
+  z-index: 5;
+}
+
+.profile-photo:active{
+  outline-offset: 0vw;
+  outline: 500vw solid rgb(0,255,255);
+  background-color: rgb(0,255,255) ;
+}
+
+.whatsapp-icon{
+position: absolute;
+z-index: 0;
+width: 10vw;
+bottom: 15vw;
+right: 22vw;
+}
+
+.whatsapp-icon:active{
+  outline-offset: 0vw;
+  outline: 500vw solid rgb(0,255,255);
+}
+
+.its-me{
+  margin: 0 auto;
+  /* padding: 2vw; */
+  font-size: 1.5rem;
+  margin-top: 5vw;
+  margin-bottom: 10vw;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 600;
+}
+
+
+/* ////////////////////////// */
+
+
+.typing-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-cursor {
+  display: inline-block;
+  width: 2px;
+  height: 42px;
+  background-color: white;
+  margin-left: 8px;
+}
+
+
+/* ////////////////////////// */
+
+
+.form-like{
+width: 90%;
+margin: 0 auto;
+position: relative
+}
+
+.form-like-short{
+  width: 70%;
+  margin: 0 auto;
+  position: relative
+  }
+
+.form-label{
+  font-size: 0.75rem;
+  font-family: 'IBM Plex Mono', monospace;
+  /* font-style: italic; */
+  color: rgb(200,200,200);
+  margin-bottom: 0.2rem;
+  position: absolute;
+  top:-15px;
+  left: -0px;
+}
+
+.form-text{
+  padding: 3vw;
+  border: 1px solid rgb(220,220,220);
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 1rem;
+  line-height: 1.3;
+}
+
+.container-lateral{
+  display: flex;
+  justify-content: space-between;
+  gap: 5vw;
+}
+
+.container-image{
+  display: flex;
+  width: 90%;
+  gap: 5vw;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.container-image:active{
+  outline-offset: 0vw;
+  outline: 500vw solid rgb(0,255,255);
+  background-color: rgb(0,255,255);
+}
+
+
+.image-pic{
+  width: 5vw;
+}
+
+.image-text{
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 1rem;
+  /* font-weight: 500; */
+  text-decoration: none;
+  decoration: none;
+}
+
+.container-vertical{
+  height: 20vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  gap: 4vh;
+  margin-top: 4vh;
+  margin-bottom: 5vh;
+}
+
+.previous-work-text{
+  font-size: 0.75rem;
+  font-family: 'IBM Plex Mono', monospace;
+  /* font-style: italic; */
+  color: rgb(200,200,200);
+}
+
+
+.text_port{
+  text-align: center;
+  color:#111;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.8 rem;
+  font-weight: 400;
+  text-decoration: none;
+  border: 1px solid rgb(0,255,255);
+  outline-offset: 1vw;
+  outline: 1px solid rgb(255,0,255);
+  padding: 10px;
+  width: 60%;
+}
+
+.text_port:active{
+  outline-offset: 0vw;
+  outline: 500vw solid rgb(255,0,255);
+  background-color: rgb(255,0,255);
+}
