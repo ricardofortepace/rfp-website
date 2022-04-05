@@ -12,8 +12,9 @@
     <%#= stylesheet_link_tag 'bootstrap/scss/bootstrap'%>
 
     <%=favicon_link_tag 'icons8-mental-health-64.png' %>
-    <title>RicardoFortePace</title>
+    <title>Ricardo Pace</title>
     <meta name="description" content="Hi. I'm Ricardo, a brazilian graphic/industrial designer and web developer. How can I help ya?">
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload', defer: true %>
   </head>
 
   <body>
@@ -22,7 +23,8 @@
   <body>
     <%= yield %>
 
-     <script src="js/application.js"></script>
+     <%# <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+
   </body>
 
 </html>

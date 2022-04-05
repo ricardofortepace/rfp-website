@@ -53,10 +53,10 @@ body{
 .whatsapp-icon{
 position: absolute;
 z-index: 0;
-width: 10vw;
+width: 11vw;
 bottom: 15vw;
-right: 22vw;
-}
+right: 21vw;
+-webkit-filter: drop-shadow(2px 2px 2px rgba(0,0,0, 0.5));}
 
 .whatsapp-icon:active{
   outline-offset: 0vw;
@@ -72,28 +72,6 @@ right: 22vw;
   font-family: 'IBM Plex Mono', monospace;
   font-weight: 600;
 }
-
-
-/* ////////////////////////// */
-
-
-.typing-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.input-cursor {
-  display: inline-block;
-  width: 2px;
-  height: 42px;
-  background-color: white;
-  margin-left: 8px;
-}
-
-
-/* ////////////////////////// */
-
 
 .form-like{
 width: 90%;
@@ -165,7 +143,7 @@ position: relative
   align-items: center;
   flex-direction: column;
   gap: 4vh;
-  margin-top: 5vh;
+  margin-top: 4vh;
   margin-bottom: 6vh;
 }
 
