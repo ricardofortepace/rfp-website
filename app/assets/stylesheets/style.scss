@@ -25,12 +25,12 @@ and (min-width : 1024px) {
     flex-direction: row;
     justify-content: space-around;
     // gap: 7.5vw;
-    width: 95vw;
-    max-width: 95vw;
-    height: 92vh;
-    max-height: 92vh;
+    width: 98vw;
+    max-width: 98vw;
+    height: 95vh;
+    max-height: 95vh;
     margin: 0.75vw auto;
-    margin-top: 4vh;
+    margin-top: 2vh;
     padding-bottom: 0;
     background-color: #fff;
     box-shadow: 5px 6px 6px rgba(50,50,50,0.3);
@@ -56,7 +56,7 @@ and (min-width : 1024px) {
 @media only screen
 and (min-width : 1024px) {
   .container-head{
-    width: 820px;
+    width: 77%;
     height: 300px;
     // background-color: red;
     margin: 0 auto;
@@ -95,7 +95,7 @@ and (min-width : 1024px) {
     width: 300px;
     border-radius: 150px;
     outline: 12px solid rgb(0,255,255);
-    outline-offset: 7px;
+    outline-offset: 10px;
     margin: 0 auto;
     margin-top: 0;
     // margin-bottom: 5vw;
@@ -109,7 +109,7 @@ and (min-width : 1024px) {
   z-index: 0;
   width: 11vw;
   bottom: 15vw;
-  right: 21vw;
+  left: 60vw;
   -webkit-filter: drop-shadow(2px 2px 2px rgba(0,0,0, 0.5));
 }
 
@@ -125,7 +125,7 @@ and (min-width : 1024px) {
     z-index: 0;
     width: 45px;
     bottom: 20px;
-    right: 528px;
+    left: 252px;
     -webkit-filter: drop-shadow(2px 2px 2px rgba(0,0,0, 0.5));
 
     // display:none;
@@ -135,7 +135,7 @@ and (min-width : 1024px) {
 .its-me{
   margin: 0 auto;
   /* padding: 2vw; */
-  font-size: 7vw;
+  font-size: 6vw;
   margin-top: 5vw;
   margin-bottom: 10vw;
   font-family: 'IBM Plex Mono', monospace;
@@ -148,21 +148,20 @@ and (min-width : 1024px) {
     margin: 0 auto;
     /* padding: 2vw; */
     font-size: 40px;
-    margin-top: 10px;
+    margin-top: 7px;
     margin-bottom: 0;
-    margin-right: 0;
+    margin-left: 110px;
     font-family: 'IBM Plex Mono', monospace;
-    font-weight: 500;
+    font-weight: 400;
 
     // display:none;
   }
 }
 
-
 .form-like{
-width: 90%;
-margin: 0 auto;
-position: relative
+  width: 90%;
+  margin: 0 auto;
+  position: relative
 }
 
 @media only screen
@@ -302,11 +301,11 @@ and (min-width : 1024px) {
   align-items: center;
 }
 
-.container-image:active{
-  outline-offset: 0vw;
-  outline: 500vw solid rgb(0,255,255);
-  background-color: rgb(0,255,255);
-}
+// .container-image:active{
+//   outline-offset: 0vw;
+//   outline: 500vw solid rgb(0,255,255);
+//   background-color: rgb(0,255,255);
+// }
 
 @media only screen
 and (min-width : 1024px) {
@@ -315,8 +314,25 @@ and (min-width : 1024px) {
   }
 }
 
+.image-pic-numb{
+  width: 5vw;
+}
+
+@media only screen
+and (min-width : 1024px) {
+  .image-pic-numb{
+    display:none;
+  }
+}
+
 .image-pic{
   width: 5vw;
+}
+
+.image-pic:active{
+  outline-offset: 0vw;
+  outline: 500vw solid rgb(0,255,255);
+  background-color: rgb(0,255,255);
 }
 
 @media only screen
@@ -326,12 +342,34 @@ and (min-width : 1024px) {
   }
 }
 
+.image-text-numb{
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 4vw;
+  /* font-weight: 500; */
+  text-decoration: none;
+  decoration: none;
+}
+
+@media only screen
+and (min-width : 1024px) {
+  .image-text-numb{
+    display:none;
+  }
+}
+
+
 .image-text{
   font-family: 'IBM Plex Mono', monospace;
   font-size: 4vw;
   /* font-weight: 500; */
   text-decoration: none;
   decoration: none;
+}
+
+.image-text:active{
+  outline-offset: 0vw;
+  outline: 500vw solid rgb(0,255,255);
+  background-color: rgb(0,255,255);
 }
 
 @media only screen
