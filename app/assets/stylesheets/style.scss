@@ -7,6 +7,13 @@
   align-items: center;
 }
 
+@media only screen
+and (max-width : 1024px) {
+  .body-color{
+    display: block;
+  }
+}
+
 .container-alert{
 }
 
@@ -346,12 +353,6 @@ and (min-width : 1024px) {
   margin: 4vw auto 0 auto;
   align-items: center;
 }
-
-// .container-image:active{
-//   outline-offset: 0vw;
-//   outline: 500vw solid rgb(0,255,255);
-//   background-color: rgb(0,255,255);
-// }
 
 @media only screen
 and (min-width : 1024px) {
