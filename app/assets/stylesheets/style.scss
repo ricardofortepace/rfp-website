@@ -1,11 +1,66 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 .body-color{
-  background-color: rgb(220,220,220,);
+  background-color: rgba(0,0,0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-alert{
+}
+
+@media only screen
+and (max-width : 1024px) {
+  .container-alert{
+   display:none;
+  }
+}
+
+@media only screen
+and (min-width : 1024px) {
+ .container-alert{
+  //  background-color: red;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   width: 98vw;
+   max-width: 98vw;
+   height: 95vh;
+   max-height: 95vh;
+   margin: 0 auto;
+   position: absolute;
+   // display:none;
+ }
+}
+
+.alert-img{
+}
+@media only screen
+and (min-width : 1024px) {
+ .alert-img{
+   height: 60vh;
+ }
+}
+
+.alert-txt{
+}
+@media only screen
+and (min-width : 1024px) {
+ .alert-txt{
+  font-size: 40px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 110px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 500;
+}
 }
 
 .container-principal{
   display: flex;
+  text-align: center;
   flex-direction: column;
   justify-content: space-around;
   gap: 7.5vw;
@@ -58,16 +113,11 @@ and (min-width : 1024px) {
   .container-head{
     width: 77%;
     height: 300px;
-    // background-color: red;
     margin: 0 auto;
     margin-top: 28vh;
     display: flex;
     justify-content: space-between;
-    // align-items: center;
     flex-direction: row;
-    // position: relative;
-    // padding: 50px;
-
     // display:none;
   }
 }
@@ -80,7 +130,6 @@ and (min-width : 1024px) {
   margin: 0 auto;
   margin-top: 20vw;
   margin-bottom: 5vw;
-  z-index: 5;
 }
 
 .profile-photo:active{
@@ -92,15 +141,13 @@ and (min-width : 1024px) {
 @media only screen
 and (min-width : 1024px) {
   .profile-photo{
-    width: 300px;
-    border-radius: 150px;
-    outline: 12px solid rgb(0,255,255);
-    outline-offset: 10px;
-    margin: 0 auto;
-    margin-top: 0;
-    // margin-bottom: 5vw;
-    z-index: 5;
-    // display:none;
+    // width: 300px;
+    // border-radius: 150px;
+    // outline: 12px solid rgb(0,255,255);
+    // outline-offset: 10px;
+    // margin: 0 auto;
+    // margin-top: 0;
+    display:none;
   }
 }
 
@@ -121,14 +168,14 @@ and (min-width : 1024px) {
 @media only screen
 and (min-width : 1024px) {
   .whatsapp-icon{
-    position: absolute;
-    z-index: 0;
-    width: 45px;
-    bottom: 20px;
-    left: 252px;
-    -webkit-filter: drop-shadow(2px 2px 2px rgba(0,0,0, 0.5));
+    // position: absolute;
+    // z-index: 0;
+    // width: 45px;
+    // bottom: 20px;
+    // left: 252px;
+    // -webkit-filter: drop-shadow(2px 2px 2px rgba(0,0,0, 0.5));
 
-    // display:none;
+    display:none;
   }
 }
 
@@ -145,16 +192,15 @@ and (min-width : 1024px) {
 @media only screen
 and (min-width : 1024px) {
   .its-me{
-    margin: 0 auto;
-    /* padding: 2vw; */
-    font-size: 40px;
-    margin-top: 7px;
-    margin-bottom: 0;
-    margin-left: 110px;
-    font-family: 'IBM Plex Mono', monospace;
-    font-weight: 400;
+    // margin: 0 auto;
+    // font-size: 40px;
+    // margin-top: 7px;
+    // margin-bottom: 0;
+    // margin-left: 110px;
+    // font-family: 'IBM Plex Mono', monospace;
+    // font-weight: 400;
 
-    // display:none;
+    display:none;
   }
 }
 
